@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="blog-content">
+        <h2 class="blog-title">{{ blog['title'] }}</h2>
+        <div class="blog-text">{{ blog['content']|safe }}</div>
+    </div>
+{% endblock %}

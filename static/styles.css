@@ -1,0 +1,139 @@
+/* Apply gradient background to all pages */
+body {
+    background: linear-gradient(to bottom, #080808, #0c0b1b);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to bottom, #111, #333); /* Dark to slightly lighter background gradient */
+    padding: 1rem;
+    text-align: left; /* Align text to the left */
+    border-bottom: 2px solid #007BFF; /* Light blue */
+}
+
+header h1 {
+    color: #fff; /* White text color */
+    font-size: 2.5rem; /* Larger font size */
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for emphasis */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Writing page styles */
+.write-blog-form {
+    background: linear-gradient(to bottom, #1a1a1a, #151515);
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.write-blog-form h2 {
+    color: #7F7FD5; /* Light blue */
+    margin-top: 0;
+}
+
+.write-blog-form label {
+    display: block;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.write-blog-form input[type="text"],
+.write-blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.write-blog-form button {
+    background: linear-gradient(to bottom, #F442D4, #FF79D6); /* Pink to pink gradient */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Blog list page styles */
+.blog-list {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-title {
+    color: #007BFF; /* Light blue */
+    text-decoration: none;
+}
+
+.blog-text {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Individual blog page styles */
+.blog-content {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-content h2 {
+    color: #007BFF; /* Light blue */
+    margin-top: 0;
+}
+
+.blog-content a {
+    color: #007BFF; /* Light blue */
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #007BFF; /* Light blue */
+}
+
+footer p {
+    color: #ccc;
+    margin: 0;
+}

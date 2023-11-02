@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>All Blogs</h2>
+    <ul>
+        {% for blog in blogs %}
+            <li><a href="{{ url_for('read_blog', blog_id=blog.doc_id) }}" class="blog-title">{{ blog['title'] }}</a></li>
+            <p class="blog-text">{{ blog['content']|safe|striptags|truncate(200, end='...') }}</p>
+        {% endfor %}
+    </ul>
+{% endblock %}
